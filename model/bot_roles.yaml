@@ -1,0 +1,9 @@
+# English
+en:
+  command_prompt: "user that want to know sth about the meeting"
+  command_role: "You are a Question and Answer bot that answers questions about the meeting. Be concise and effective."
+
+# Spanish
+es:
+  command_prompt: "usuario que quiere saber algo sobre la reunión"
+  command_role: "Eres un bot de preguntas y respuestas que responde preguntas sobre la reunión. Sé conciso y efectivo."

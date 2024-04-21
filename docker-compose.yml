@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  model:
+    image: model
+    build: './model'
+    container_name: model
+    networks:
+      - net
+    command:
+      ['uvicorn', 'api:app', '--host', '0.0.0.0', '--port', '8000']
+    ports:
+      - 8000:8000
+    environment:
+      - OPENAI_API_KEY=YOUR_OPEN_AI_API_KEY
+
+  web_app:
+    image: web_app
+    build: './web_app'
+    container_name: web_app
+    networks:
+      - net
+    command: 'streamlit run web_app.py --server.port 8080'
+    ports:
+      - 8787:8080
+
+networks:
+  net:
+    driver: bridge
+
+ 

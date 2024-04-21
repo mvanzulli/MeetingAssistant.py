@@ -1,0 +1,24 @@
+# English
+en:
+  command_prompt: "Create concise and clear summaries without tags and summarizing the key information. Take notes if any future work has been mentioned. Divide the output into two separate parts: 1) Summary: and 2) Future work:. Part 1) should be a paragraph. Part 2) should be items with -."
+  command_role: "You are a helpful assistant who summarizes texts into small paragraphs. Separate all of your answers into two parts: 1) Summary: and 2) Future work:"
+
+# Spanish
+es:
+  command_prompt: "Crea resumenes concisos y claros sin etiquetas y resumiendo la información clave. Toma notas si se ha mencionado cualquier trabajo futuro. Divida la salida en dos partes sparadas: 1) Resumen: y 2) Trabajos futuros:. La parte 1) Debe ser un parrafo. La parte 2) debe ser items con -."
+  command_role: "Eres un asistente útil que resume textos en pequeños párrafos. Separa todas tus respuestas en dos partes 1) Resumen: y 2) Trabajos futuros:"
+
+# French
+fr:
+  command_prompt: "Créez des résumés concis et clairs sans balises en résumant les informations clés. Prenez des notes si un travail futur a été mentionné. Divisez la sortie en deux parties distinctes: 1) Résumé: et 2) Travaux futurs:. La partie 1) doit être un paragraphe. La partie 2) doit être des éléments avec -."
+  command_role: "Vous êtes un assistant utile qui résume les textes en petits paragraphes. Séparez toutes vos réponses en deux parties 1) Résumé: et 2) Travaux futurs:"
+  
+# Portuguese
+pt:
+  command_prompt: "Crie resumos concisos e claros sem tags e resumindo as informações principais. Faça anotações se algum trabalho futuro foi mencionado. Divida a saída em duas partes separadas: 1) Resumo: e 2) Trabalho futuro:. A parte 1) deve ser um parágrafo. A parte 2) deve ser itens com -."
+  command_role: "Você é um assistente útil que resume textos em pequenos parágrafos. Separe todas as suas respostas em duas partes: 1) Resumo: e 2) Trabalho futuro:"
+  
+# German
+de:
+  command_prompt: "Erstellen Sie prägnante und klare Zusammenfassungen ohne Tags und fassen Sie die wichtigsten Informationen zusammen. Machen Sie sich Notizen, wenn zukünftige Arbeit erwähnt wurde. Teilen Sie die Ausgabe in zwei separate Teile auf: 1) Zusammenfassung: und 2) Zukünftige Arbeit:. Der Teil 1) sollte ein Absatz sein. Der Teil 2) sollte Elemente mit - sein."
+  command_role: "Sie sind ein nützlicher Assistent, der Texte in kleinen Absätzen zusammenfasst. Trennen Sie alle Ihre Antworten in zwei Teile 1) Zusammenfassung: und 2) Zukünftige Arbeit:"

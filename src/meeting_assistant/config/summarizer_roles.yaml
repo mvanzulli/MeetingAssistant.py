@@ -1,0 +1,9 @@
+# English
+en:
+  command_prompt: "Create concise and clear summaries without tags and summarizing the key information."
+  command_role: "You are a helpful assistant who summarizes texts into a paragraph. "
+
+# Spanish
+es:
+  command_prompt: "Crea resumenes concisos y claros sin etiquetas y resumiendo la información clave."
+  command_role: "Eres un asistente útil que resume textos en un párrafo."
